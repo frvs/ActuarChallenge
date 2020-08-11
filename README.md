@@ -9,12 +9,15 @@ POST api/v1/products {products: product[]}
 DELETE api/v1/products {products: product[]}
 ```
 ## Requisitos
-Fazer um sistema de controle de estoque.    
-    - Dar entrada em um ou mais produtos  
-    - Dar saida em um ou mais produtos  
-    - Saber estoque atual de todos os produtos  
-    - Saber total em estoque por produto 
-    - Saber o estoque de um momento especifico  
+<details>
+<summary>Ver mais</summary>  
+    
+#### Fazer um sistema de controle de estoque.    
+- Dar entrada em um ou mais produtos  
+- Dar saida em um ou mais produtos  
+- Saber estoque atual de todos os produtos  
+- Saber total em estoque por produto 
+- Saber o estoque de um momento especifico  
 #### Especificações 
 - Deve ser implementado em .Net ou .Net Core
 - Deve ter conexão com SQL Server ou MongoDB
@@ -25,3 +28,4 @@ Fazer um sistema de controle de estoque.
 - DDD, TDD
 - Docker
 - Event-driven
+</details>
