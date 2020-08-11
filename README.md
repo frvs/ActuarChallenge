@@ -1,4 +1,4 @@
-# ActuarChallenge
+# Actuar Challenge
 # https://actuar-api.herokuapp.com/swagger/index.html
 
 ## Notas
