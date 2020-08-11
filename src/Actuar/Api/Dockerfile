@@ -8,6 +8,10 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["Api/Api.csproj", "Api/"]
+COPY ["Domain/Domain.csproj", "Domain/"]
+COPY ["Infra/Infra.csproj", "Infra/"]
+COPY ["Application/Application.csproj", "Application/"]
+
 RUN dotnet restore "Api/Api.csproj"
 COPY . .
 WORKDIR "/src/Api"
