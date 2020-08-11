@@ -60,7 +60,7 @@ namespace Application.Services
 
             return _productRepository.Update(products);
         }
-
+         
         private bool ExistsInDatabase(Product product)
         {
             return _productRepository.Exists(product.Id);
